@@ -17,7 +17,7 @@ NUM1 = 1404
 NUM2 = 15912
 if NUM1 < NUM2:
     NUM1, NUM2 = NUM2, NUM1
-if NUM1 == NUM2:
+if NUM1 == NUM2 & NUM1 != 0:
     print(print(NUM1, "*", 1, "+", NUM2, "*", 0, "=", 0))
 else:
     if NUM2 == 0:
