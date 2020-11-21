@@ -17,10 +17,13 @@ NUM1 = 1404
 NUM2 = 15912
 if NUM1 < NUM2:
     NUM1, NUM2 = NUM2, NUM1
-if NUM2 == 0:
-    if NUM1 == 0:
-        print(NUM1, "*", 0, "+", NUM2, "*", 0, "=", 0)
-    else:
-        print(NUM1, "*", 1, "+", NUM2, "*", 0, "=", 0)
+if NUM1 == NUM2:
+    print(print(NUM1, "*", 1, "+", NUM2, "*", 0, "=", 0))
 else:
-    print(NUM1, "*", e_gcd(NUM1, NUM2)[0], "+", NUM2, "*", e_gcd(NUM1, NUM2)[1], "=", e_gcd(NUM1, NUM2)[2][2])
+    if NUM2 == 0:
+        if NUM1 == 0:
+            print(NUM1, "*", 0, "+", NUM2, "*", 0, "=", 0)
+        else:
+            print(NUM1, "*", 1, "+", NUM2, "*", 0, "=", 0)
+    else:
+        print(NUM1, "*", e_gcd(NUM1, NUM2)[0], "+", NUM2, "*", e_gcd(NUM1, NUM2)[1], "=", e_gcd(NUM1, NUM2)[2][2])
