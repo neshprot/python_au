@@ -1,4 +1,4 @@
-import package.egcdm2
+import egcdm2
 from package.egcdm2 import e_gcd
 def m1f1(NUM1, NUM2):
     if NUM1 < NUM2:
