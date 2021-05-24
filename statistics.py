@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import pandas
 from scipy import stats
 
-df = pandas.read_csv("Data_lab.csv")
+df = pandas.read_csv("data_lab.csv")
 print(df)
 
 df['experiments'].plot(kind='bar')
