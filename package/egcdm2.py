@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import math
 
 
@@ -11,9 +10,8 @@ def e_gcd(first_num, sec_num):
     buf = kof2
     kof2 = kof1 - (math.ceil(first_num / sec_num) - 1) * kof2
     kof1 = buf
-=======
-import math
 
+import math
 
 def e_gcd(first_num, sec_num):
     if sec_num == 0:
@@ -24,5 +22,5 @@ def e_gcd(first_num, sec_num):
     buf = kof2
     kof2 = kof1 - (math.ceil(first_num / sec_num) - 1) * kof2
     kof1 = buf
->>>>>>> 543d229... Module
     return kof1, kof2, gcd
+
