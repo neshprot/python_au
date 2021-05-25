@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import egcdm2
 from egcdm2 import e_gcd
 def m1f1(NUM1, NUM2):
@@ -15,7 +14,7 @@ def m1f1(NUM1, NUM2):
         else:
             S = str(NUM1) + ' * ' + str(egcdm2.e_gcd(NUM1, NUM2)[0]) + ' + ' + str(NUM2) + ' * ' + str(egcdm2.e_gcd(NUM1, NUM2)[1]) + ' = ' + str(egcdm2.e_gcd(NUM1, NUM2)[2][2])
     return(S)
-=======
+
 import egcdm2
 from egcdm2 import e_gcd
 def m1f1(NUM1, NUM2):
@@ -32,4 +31,4 @@ def m1f1(NUM1, NUM2):
         else:
             S = str(NUM1) + ' * ' + str(egcdm2.e_gcd(NUM1, NUM2)[0]) + ' + ' + str(NUM2) + ' * ' + str(egcdm2.e_gcd(NUM1, NUM2)[1]) + ' = ' + str(egcdm2.e_gcd(NUM1, NUM2)[2][2])
     return(S)
->>>>>>> 543d229... Module
+
